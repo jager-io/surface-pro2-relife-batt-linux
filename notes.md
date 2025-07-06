@@ -331,29 +331,54 @@ Lazarus now has wireless connectivity through the Marvell 88W8897 chipset using 
 
 ###   Wi-Fi restored via manual Marvell firmware install (88W8897)
    ```
+Absolutely — here’s a concise, no-fluff progress update to append to your Lazarus GitHub project:
+
+---
+
+### 🧱 Post-WiFi Setup Progress: KDE Install & Userland Configuration
+
+Following successful Wi-Fi restoration using the Marvell 88W8897 firmware injection, focus shifted to building out the core Arch environment and preparing Lazarus for daily driver use.
+
+### ✅ System Configuration Steps
+
+* Installed `sudo` and configured `visudo` to allow `wheel` group access
+* Created the `j***r` user and added to `wheel` group
+* Confirmed working `sudo` privileges from non-root account
+* Installed essential system tools: `nano`, `git`, `base-devel`
+* Attempted but postponed Surface-specific tools (AUR access requires further networking/VPN setup)
+* Proceeded to full desktop environment setup using KDE Plasma
+
+### ✅ Desktop Environment Installation (in progress)
+
+The following packages were selected:
+
+```bash
+sudo pacman -S plasma kde-applications sddm
+```
+
+All package groups were accepted at default. Installation is currently running and may take time due to network speed and package size.
+
+---
+
+## 🔜 Next Command
+
+Once installation is complete:
+
+```bash
+sudo systemctl enable sddm
+reboot
+```
+
+---
+
+
 
 
 ## 🔜 Next Steps
 
-1. **Install text editor:**
 
-   ```bash
-   pacman -S nano
-   ```
 
-2. **Enable sudo for wheel group:**
 
-   ```bash
-   EDITOR=nano visudo
-   # Uncomment: %wheel ALL=(ALL:ALL) ALL
-   ```
-
-3. **Create regular user:**
-
-   ```bash
-   useradd -m -G wheel j*****
-   passwd j**
-   ```
 
 4. **Install remaining surface tools:**
 
