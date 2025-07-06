@@ -169,7 +169,7 @@ Understood. Here's the same write-up without tables, restructured for clean Mark
 
 ---
 
-## 🧾 Lazarus Build Log: Surface Laptop 2 (Arch Linux Install + Surface Kernel)
+## 🧾 Workstation Build Log: Surface Laptop 2 (Arch Linux Install + Surface Kernel)
 
 ### Phase: Surface Kernel Setup & Hardware Enablement
 
@@ -188,7 +188,7 @@ Understood. Here's the same write-up without tables, restructured for clean Mark
 ### Initial System State
 
 * Arch Linux was installed and booting from disk on the Surface Laptop 2.
-* Hostname set to **Lazarus**.
+* Hostname set to **workstation**.
 * systemd-boot configured and functional.
 * Disk partitioned using GPT: 512MB EFI system partition and the rest as ext4 root.
 * No internet access available due to:
