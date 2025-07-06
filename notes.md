@@ -21,7 +21,7 @@ Then I went here to figure out how to disable secure boot [https://learn.microso
 -Make sure it's your Arch USB (not Windows installer)
 -Save and reboot
 
-Thne it installed arch and correctly borught up the boat loader
+ - Then it installed arch and correctly borught up the boat loader
 -first I connect to wifi 
 -iwctl
 -station wlan0 scan
