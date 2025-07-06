@@ -328,11 +328,9 @@ Used `nmtui` to connect to Wi-Fi — confirmed connectivity with `ping`.
 ## ✅ Status: Wi-Fi functional
 ## Wi-Fi restored via manual Marvell firmware install (88W8897)
 Lazarus now has wireless connectivity through the Marvell 88W8897 chipset using a manual firmware injection. No external dongles or tethering required.
+---
 
-
-   ```
-
-### 🧱 Post-WiFi Setup Progress: KDE Install & Userland Configuration 
+  ### 🧱 Post-WiFi Setup Progress: KDE Install & Userland Configuration 
 
 
 Following successful Wi-Fi restoration using the Marvell 88W8897 firmware injection, focus shifted to building out the core Arch environment and preparing Lazarus for daily driver use.
@@ -349,6 +347,23 @@ Installed essential system tools: nano, git, base-devel
 Attempted but postponed Surface-specific tools (AUR access requires further networking/VPN setup)
 
 Proceeded to full desktop environment setup using KDE Plasma
+
+✅ Desktop Environment Installation (in progress)
+The following packages were selected:
+sudo pacman -S plasma kde-applications sddm
+
+All package groups were accepted at default. Installation is currently running and may take time due to network speed and package size.
+
+---
+
+## 🔜 Next Command
+
+Once installation is complete:
+
+```bash
+sudo systemctl enable sddm
+reboot
+---
 
 ✅ Desktop Environment Installation (in progress)
 The following packages were selected:
