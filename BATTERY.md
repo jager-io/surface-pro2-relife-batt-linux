@@ -6,6 +6,7 @@ To bring the Surface Laptop 2 back from the dead, the aging battery had to go. T
 ### 🧾 Cost Breakdown
 
 - **¥118 CNY** (~$16 USD) — Replacement battery ordered from **Taobao**, China’s biggest e-commerce platform.
+- ![Taobao page](images/batterypage.jpeg)
 - **¥500 CNY** (~$69 USD) — Professional installation by a local technician.
 
 > ⚠️ Official Microsoft repair services typically charge **$200–$300 USD** or more for Surface battery replacements — often requiring the entire top case to be replaced. That wasn’t an option here.
