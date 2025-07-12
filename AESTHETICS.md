@@ -11,7 +11,7 @@ Minimalist, clean, and worthy of its rebirth.
 
 -👉 [See the freshly cleaned Surface](IMAGES/clean.jpeg)
 
--👉 [Check out the newly applied stickers](IMAGES/new.jpeg)
+-👉 [Check out the newly applied stickers](IMAGES/NEW.jpeg)
 
 ---
 
