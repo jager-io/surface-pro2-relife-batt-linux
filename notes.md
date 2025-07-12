@@ -338,7 +338,7 @@ Following successful Wi-Fi restoration using the Marvell 88W8897 firmware inject
 ✅ System Configuration Steps
 Installed sudo and configured visudo to allow wheel group access
 
-Created the jager user and added to wheel group
+Created the j****r user and added to wheel group
 
 Confirmed working sudo privileges from non-root account
 
